@@ -4,6 +4,7 @@ int ** createMatrix (size_t m, size_t n)
 {
   // code
 }
+
 void input(int ** mtx, size_t m, size_t n)
 {
   for (size_t i = 0; i < m; ++i)
@@ -30,7 +31,7 @@ void output(const int ** mtx, size_t m, size_t n)
 
 void clear(int ** mtx, size_t m, size_t n)
 {
-  //code
+  
 }
 
 int main()
