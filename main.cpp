@@ -1,4 +1,3 @@
-#include <exception>
 #include <iostream>
 #include "matrix.hpp"
 
@@ -16,7 +15,7 @@ int main()
   {
     int ** mtx = createMatrix(m, n);
   }
-  catch (std::exception & e)
+  catch (std::bad_alloc & e)
   {
     std::cerr << e.what();
   }
